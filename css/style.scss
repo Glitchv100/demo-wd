@@ -1,0 +1,16 @@
+@use "./navbar";
+@use "./pages/home";
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  direction: rtl;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  height: 100rem;
+  background-color: #ededed;
+}
